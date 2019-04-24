@@ -1,0 +1,310 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<script type="text/javascript">
+		// 根据设计稿的宽度来传参 比如640 750 1125
+		!function(e){if(/Android(?:\s+|\/)(\d+\.\d+)?/.test(navigator.userAgent)){var t=parseFloat(RegExp.$1);if(t>2.3){var i=parseInt(window.screen.width)/e;document.write('<meta name="viewport" content="width='+e+",minimum-scale="+i+",maximum-scale="+i+', target-densitydpi=device-dpi">')}else{document.write('<meta name="viewport" content="width='+e+',target-densitydpi=device-dpi">')}}else{document.write('<meta name="viewport" content="width='+e+',user-scalable=no,target-densitydpi=device-dpi,minimal-ui,viewport-fit=cover">')}}(750);
+		</script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="logo">
+				<div class="logo-img" >
+				</div>
+				<div class="logo-word">
+				</div>
+			</div>
+			<div class="menu">
+				<div id="menu"  class="menu-icon menu-icon-menu"></div>
+			</div>
+		</header>
+		<div id="nav" class="nav" style="display: none;">
+			<div class="nav-close"></div>
+			<div class="nav-list">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="category.html">工商联之窗</a></li>
+					<li><a href="list.html">新闻中心</a></li>
+					<li><a href="list.html">政策法规</a></li>
+					<li><a href="list.html">服务之窗</a></li>
+					<li><a href="list.html">榆商风采</a></li>
+					<li><a href="list.html">会员管理</a></li>
+					<li><a href="list.html">文件资料</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="h120"></div>
+		<div class="news-slider">
+			<div id="slider" class="mui-slider">
+				
+				<div class="mui-slider-group mui-slider-loop">
+					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="./images/flash.jpg">
+						</a>
+						<div class="news-flash-title">
+							<a href="#">新闻新闻标题新闻新闻标题</a>
+						</div>
+						<div  class="news-flash-bottombg"></div>
+					</div>
+					<!-- 第一张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="./images/flash.jpg">
+						</a>
+						<div  class="news-flash-bottombg"></div>
+						<div class="news-flash-title">
+							<a href="#">新闻新闻标题新闻新闻标题</a>
+						</div>
+					</div>
+					<!-- 第二张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="./images/flash.jpg">
+						</a>
+						<div  class="news-flash-bottombg"></div>
+						<div class="news-flash-title">
+							<a href="#">新闻新闻标题新闻新闻标题</a>
+						</div>
+					</div>
+					<!-- 第三张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="./images/flash.jpg">
+						</a>
+						<div  class="news-flash-bottombg"></div>
+						<div class="news-flash-title">
+							<a href="#">新闻新闻标题新闻新闻标题</a>
+						</div>
+					</div>
+					<!-- 第四张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="./images/flash.jpg">
+						</a>
+						<div  class="news-flash-bottombg"></div>
+						<div class="news-flash-title">
+							<a href="#">新闻新闻标题新闻新闻标题</a>
+						</div>
+					</div>
+					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="./images/flash.jpg">
+						</a>
+						<div class="news-flash-title">
+							<a href="#">新闻新闻标题新闻新闻标题</a>
+						</div>
+						<div  class="news-flash-bottombg"></div>
+					</div>
+				</div>
+				
+				<div class="mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+
+			<div class="notice">
+				<div class="notice-img"><img src="./images/notice-icon.png" /></div> 
+				<div class="notice-content"><a href="">通知公告通知公告通知公告通知公告</a></div>
+			</div>
+			<div class="category">
+				<div class="category-wrap">
+					<div class="category-title">
+						<div id="segmentedControl" class="mui-segmented-control">
+							<a class="mui-control-item mui-active" href="#item1">新闻中心</a>
+							<a class="mui-control-item" href="#item2">政策法规</a>
+							<a class="mui-control-item" href="#item3">服务之窗</a>
+							<a class="mui-control-item" href="#item4">文件资料</a>
+						</div>
+					</div>
+					<div class="category-content">
+						<div id="item1" class="mui-control-content mui-active">
+							<ul class="category-content-list">
+								<li class="">
+									<a href="#">新闻中心新闻中心新闻中心新闻中心-1</a>
+								</li>
+								<li class="">
+									<a href="#">新闻中心新闻中心新闻中心新闻中心-1</a>
+								</li>
+								<li class="">
+									<a href="#">新闻中心新闻中心新闻中心新闻中心-1</a>
+								</li>
+								<li class="">
+									<a href="#">新闻中心新闻中心新闻中心闻中心-1</a>
+								</li>
+							</ul>
+							<div class="category-list-more"><a href="list.html">更多></a></div>
+						</div>
+						<div id="item2" class="mui-control-content">
+							<ul class="category-content-list">
+								<li class="">
+									<a href="#">政策法规新闻中心新闻中心新闻中心-1</a>
+								</li>
+								<li class="">
+									<a href="#">新闻中心新闻中心新闻中心新闻中心-1</a>
+								</li>
+								<li class="">
+									<a href="#">新闻中心新闻中心新闻中心新闻中心-1</a>
+								</li>
+								<li class="">
+									<a href="#">新闻中心新闻中心新闻中心闻中心-1</a>
+								</li>
+								
+							</ul>
+							<div class="category-list-more"><a href="#">更多></a></div>
+						</div>
+						<div id="item3" class="mui-control-content">
+							<ul class="category-content-list">
+								<li class="">
+									<a href="#">服务之窗新闻中心新闻中心新闻中心-1</a>
+								</li>
+								<li class="">
+									<a href="#">新闻中心新闻中心新闻中心新闻中心-1</a>
+								</li>
+								<li class="">
+									<a href="#">新闻中心新闻中心新闻中心新闻中心-1</a>
+								</li>
+								<li class="">
+									<a href="#">新闻中心新闻中心新闻中心闻中心-1</a>
+								</li>
+								
+							</ul>
+							<div class="category-list-more"><a href="list.html">更多></a></div>
+						</div>
+						<div id="item4" class="mui-control-content">
+							<ul class="category-content-list">
+								<li class="">
+									<a href="#">文件资料新闻中心新闻中心新闻中心-1</a>
+								</li>
+								<li class="">
+									<a href="#">新闻中心新闻中心新闻中心新闻中心-1</a>
+								</li>
+								<li class="">
+									<a href="#">新闻中心新闻中心新闻中心新闻中心-1</a>
+								</li>
+								<li class="">
+									<a href="#">新闻中心新闻中心新闻中心闻中心-1</a>
+								</li>
+								
+							</ul>
+							<div class="category-list-more"><a href="list.html">更多></a></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="depart">
+			<div class="departbg">
+				<div class="depart-title"><img src="./images/depart-title.png" /></div>
+				<div class="depart-content">
+					<div class="mui-row">
+						<div class="mui-col-sm-3">
+							<div class="depart-content-item">
+							<a href=""><img src="./images/icon1.png" /></a>
+							</div>
+						</div>
+						<div class="mui-col-sm-3">
+							<div class="depart-content-item">
+							<a href=""><img src="./images/icon2.png" /></a>
+							</div>
+						</div>
+						<div class="mui-col-sm-3">
+							<div class="depart-content-item">
+							<a href=""><img src="./images/icon3.png" /></a>
+							</div>
+						</div>
+						<div class="mui-col-sm-3">
+							<div class="depart-content-item">
+							<a href=""><img src="./images/icon4.png" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pic">
+			<div class="pic-title-wrap">
+				<div class="pic-title">榆商风采</div>
+				<a class="pic-title-more" href="">更多 ></a>
+			</div>
+			<div class="pic-content">
+				<ul>
+					<li>
+						<div class="pic-content-item">
+							<a href=""><img src="./images/pic1.jpg" /></a>
+							<a class="pic-content-title" href="">史贵禄</a>
+						</div>
+					</li>
+					<li>
+						<div class="pic-content-item">
+						<a href=""><img src="./images/pic2.jpg" /></a>
+						<a class="pic-content-title" href="">范咏麟</a>
+						</div>
+					</li>
+					<li>
+						<div class="pic-content-item">
+						<a href=""><img src="./images/pic3.jpg" /></a>
+						<a class="pic-content-title" href="">王飞</a>
+						</div>
+					</li>
+					<li>
+						<div class="pic-content-item">
+						<a href=""><img src="./images/pic4.jpg" /></a>
+						<a class="pic-content-title" href="">张文堂</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer-image">
+				<ul>
+					<li class="first"><img src='./images/dang.png' /></li>
+					<li><img src='./images/erweima.png' /></li>
+				</ul>
+			</div>
+			<div class="footer-content">
+				<p>网站备案号：陕ICP备14004743号-1</p>
+				<p>版权所有：榆林市工商业联合会（总商会）</p>
+				<p>地址：陕西省榆林市委大楼</p>
+				<p>电话：0912-3268622</p>
+				<p>技术支持：榆林云澜软件</p>
+			</div>
+		</footer>
+		<script src="js/jquery-2.1.1.min.js
+		"></script>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init();
+			var gallery = mui('.mui-slider');
+			gallery.slider({
+			  interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
+			});
+		</script>
+		<script type="text/javascript">
+		$(window).load(function () {
+			  $("#menu").click(function(){
+				$(this).toggleClass("menu-icon-close");
+				$("#nav").slideToggle(250);
+			  });
+			  $("#nav li").each(function( index ) {
+				$( this ).css({'animation-delay': (index/10)+'s'});
+			  });
+			});
+		</script>
+		
+	</body>
+
+</html>
